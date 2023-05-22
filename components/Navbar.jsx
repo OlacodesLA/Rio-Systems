@@ -468,19 +468,6 @@ const Navbar = () => {
                   </Menu.Items>
                 </span>
               </Menu>
-
-              {/* <Link
-                activeClass="estore"
-                to="estore"
-                href="/e-store"
-                smooth={true}
-                offset={50}
-                duration={500}
-                className="px-3 hover:bg-primary hover:text-white rounded-md py-[6px] cursor-pointer "
-              >
-                <span className=" ">E-Store</span>
-              </Link> */}
-
               <Link
                 activeClass="CareerOpportunity"
                 to="career-opportunities"
@@ -490,7 +477,7 @@ const Navbar = () => {
                 duration={500}
                 className="px-3 hover:bg-primary hover:text-white rounded-md py-[6px] cursor-pointer "
               >
-                <span className="">Contact</span>
+                <span className="">Career Opportunities</span>
               </Link>
               <Link
                 activeClass="Contact"

@@ -1,5 +1,6 @@
 import { React, useRef } from "react";
 import { useInView, Variants, motion, AnimatePresence } from "framer-motion";
+import Form from "../Form";
 
 const Apply = () => {
   const cardVariants1 = {
@@ -36,7 +37,7 @@ const Apply = () => {
 
   return (
     <div>
-      <section class="bg-white dark:bg-gray-900">
+      <section class="bg-white dark:bg-gray-900 mb-20">
         <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
           <div ref={ref} class=" text-gray-500 sm:text-lg dark:text-gray-400">
             <h2
@@ -108,7 +109,7 @@ const Apply = () => {
                 <motion.img
                   variants={cardVariants1}
                   class="w-full rounded-lg"
-                  src="./images/crew.jpg"
+                  src="./images/career.jpg"
                   alt="office content 1"
                 />
               </motion.div>
@@ -121,8 +122,8 @@ const Apply = () => {
             >
               <motion.img
                 variants={cardVariants2}
-                class="w-full rounded-lg"
-                src="/images/access-3.png"
+                class="w-full rounded-lg h-full object-cover"
+                src="/images/cctv-worker-rio-system.avif"
                 alt="office content 2"
               />
             </motion.div>

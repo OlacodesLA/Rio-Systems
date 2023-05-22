@@ -5,6 +5,7 @@ import { AnimatePresence, motion, useInView } from "framer-motion";
 import { services } from "../../components/data";
 
 import Transition from "../../components/Transition";
+import Form from "../Form";
 
 const Career = () => {
   const ref = useRef(null);
@@ -86,7 +87,11 @@ const Career = () => {
                   </p>
                 </div>
               </div>
-              <p className="text-2xl font-bold underline pb-4 text-primary">
+              <Form
+                heading="Internship"
+                action="https://formsubmit.co/389a7b73a731955d4d05b92a79b198b6"
+              />
+              <p className="text-2xl font-bold underline my-10 text-primary">
                 Graduate
               </p>
               <div className="flex">
@@ -98,8 +103,12 @@ const Career = () => {
                   </p>
                 </div>
               </div>
+              <Form
+                heading="Graduate"
+                action="https://formsubmit.co/389a7b73a731955d4d05b92a79b198b6"
+              />
               <div className="flex">
-                <div className="mb-10">
+                <div className="my-10">
                   {/* <h6 className="mb-2 font-semibold leading-5">
                           Tell them I hate them
                         </h6> */}
@@ -120,11 +129,3 @@ const Career = () => {
 };
 
 export default Career;
-
-// Application Process
-// Our criteria for Entry level Programme (ELP) is as detailed below. Candidate must:
-
-// Be a graduate with a minimum of second class upper division from an accredited University
-// Have completed the compulsory NYSC and possess NYSC certificate
-// Have completed WAEC/NECO with at least 5 credits including Mathematics and English, at no more than two (2) sittings
-// Must be no more than twenty-six (27) years of age
