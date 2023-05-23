@@ -14,7 +14,7 @@ const Team = () => {
     },
     {
       name: "Dr Boluwatife Victor",
-      role: "Cofounder / Managing Director",
+      role: "Co-Founder / Managing Director",
       image: "/team-2.jpeg",
       tw: "https://twitter.com/MikkieOguns",
       fb: "https://www.facebook.com/ogunbiyi.bolu?mibextid=ZbWKwL",
