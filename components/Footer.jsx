@@ -113,17 +113,15 @@ const Footer = () => {
             <h6 class="uppercase font-semibold mb-4 flex justify-center md:justify-start">
               SERVICES
             </h6>
-            {
-              services?.map((service) => {
-                return (
-                  <p class="mb-4">
-                    <Link href={service?.link} class="text-white">
-                      {service?.name}
-                    </Link>
-                  </p>
-                )
-              })}
-
+            {services?.map((service) => {
+              return (
+                <p class="mb-4">
+                  <Link href={service?.link} class="text-white">
+                    {service?.name}
+                  </Link>
+                </p>
+              );
+            })}
           </div>
           <div class="">
             <h6 class="uppercase font-semibold mb-4 flex justify-center md:justify-start">
@@ -142,6 +140,11 @@ const Footer = () => {
             <p class="mb-4">
               <Link href="/services" class="text-white">
                 Services
+              </Link>
+            </p>
+            <p class="mb-4">
+              <Link href="/career-opportunities" class="text-white">
+                Career Opportunities
               </Link>
             </p>
             <p class="mb-4">

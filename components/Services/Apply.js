@@ -92,7 +92,7 @@ const Apply = () => {
                   transition: "all 1.4s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s",
                 }}
               >
-                Must be no more than twenty-six (27) years of age
+                Must be no more than twenty-seven (27) years of age
               </li>
             </ul>
           </div>
@@ -108,7 +108,7 @@ const Apply = () => {
               >
                 <motion.img
                   variants={cardVariants1}
-                  class="w-full rounded-lg"
+                  class="w-full h-full object-cover rounded-lg"
                   src="./images/career.jpg"
                   alt="office content 1"
                 />

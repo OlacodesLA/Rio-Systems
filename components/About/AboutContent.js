@@ -85,7 +85,7 @@ const AboutContent = () => {
               supply and adequate security are achievable”
             </p>
           </div>
-          <div class="grid grid-cols-2 gap-2 ">
+          <div class="grid gap-2 grid-cols-2 gap-2 ">
             <AnimatePresence>
               <motion.div
                 key="modal"
@@ -97,23 +97,24 @@ const AboutContent = () => {
               >
                 <motion.img
                   variants={cardVariants1}
-                  class="w-full rounded-lg"
+                  class="w-full h-[400px] object-cover rounded-lg"
                   src="./images/crew.jpg"
                   alt="office content 1"
                 />
               </motion.div>
             </AnimatePresence>
             <motion.div
+              key="modal"
               initial="offscreen"
               whileInView="onscreen"
-              viewport={{ once: true, amount: 1 }}
+              viewport={{ once: true, amount: 0.9 }}
               className=""
             >
               <motion.img
                 variants={cardVariants2}
-                class="w-full rounded-lg"
-                src="/images/access-3.png"
-                alt="office content 2"
+                class="w-full  h-[400px] object-cover rounded-lg"
+                src="/happy-workers.png"
+                alt="Rio System Happy Workers"
               />
             </motion.div>
           </div>

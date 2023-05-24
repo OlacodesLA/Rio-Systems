@@ -107,19 +107,6 @@ const Career = () => {
                 heading="Graduate"
                 action="https://formsubmit.co/389a7b73a731955d4d05b92a79b198b6"
               />
-              <div className="flex">
-                <div className="my-10">
-                  {/* <h6 className="mb-2 font-semibold leading-5">
-                          Tell them I hate them
-                        </h6> */}
-                  <p className="md:text-xl text-base font-light leading-8">
-                    We are available for on site installation and maintenance;
-                    our number one priority is that your system is reliable and
-                    held to the highest standards, day in and day out. Contact
-                    us today for more information.
-                  </p>
-                </div>
-              </div>
             </div>
           </div>
         </div>
