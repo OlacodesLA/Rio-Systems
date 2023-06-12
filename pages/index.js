@@ -13,6 +13,8 @@ import Quote from "../components/Quote";
 import Trusted from "../components/Trusted";
 import Transition from "../components/Transition";
 import Services from "../components/Services";
+import Head from "next/head";
+import Logo from "../public/Logo.png";
 
 export default function Home() {
   return (
@@ -33,6 +35,29 @@ export default function Home() {
                 </g>
               </g>
             </svg>
+            <Head>
+              <title>Rio-Systems | Home</title>
+              <meta
+                name="description"
+                content="We are in the business of creating comfort through supply of uninterrupted power, using renewable energy and using technology to provide adequate security."
+              />
+              <meta
+                name="viewport"
+                content="width=device-width, initial-scale=1"
+              />
+
+              <meta
+                property="og:url"
+                content="https://riosystems.com.ng"
+              ></meta>
+              <meta property="og:title" content="Rio-Systems | Home" />
+              <meta property="og:image" content={Logo} />
+              <meta property="og:type" content="website" />
+              <meta
+                property="og:description"
+                content="We are in the business of creating comfort through supply of uninterrupted power."
+              />
+            </Head>
 
             {/* <div className="absolute -bottom-32 text-gray border-indigo-600 -left-40 w-80 h-80 border-4 rounded-full border-opacity-60 border-t-8"></div>
           <div className="absolute -bottom-40 -left-20 border-indigo-600 w-80 h-80 border-4 rounded-full border-opacity-60 border-t-8"></div>
