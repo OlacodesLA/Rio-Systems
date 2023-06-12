@@ -48,13 +48,8 @@ const Section2 = () => {
               }}
             >
               <br className="hidden md:block" />
-              Unlimited, uninterrupted power supply and adequate security are{" "}
-              <span className="relative px-1">
-                <div className="absolute inset-x-0 bottom-0 h-3 transform -skew-x-12" />
-                <span className="relative inline-block text-deep-purple-accent-400">
-                  achievable
-                </span>
-              </span>
+              Unlimited, uninterrupted power supply and adequate security are
+              achievable
             </h2>
             <p
               class="mb-4"
@@ -100,19 +95,21 @@ const Section2 = () => {
                 />
               </motion.div>
             </AnimatePresence>
-            <motion.div
-              initial="offscreen"
-              whileInView="onscreen"
-              viewport={{ once: true, amount: 1 }}
-              className=""
-            >
-              <motion.img
-                variants={cardVariants2}
-                class="w-full rounded-lg"
-                src="/images/access-3.png"
-                alt="office content 2"
-              />
-            </motion.div>
+            <AnimatePresence>
+              <motion.div
+                initial="offscreen"
+                whileInView="onscreen"
+                viewport={{ once: true, amount: 0.8 }}
+                className=""
+              >
+                <motion.img
+                  variants={cardVariants2}
+                  class="w-full rounded-lg"
+                  src="/images/access-3.png"
+                  alt="office content 2"
+                />
+              </motion.div>
+            </AnimatePresence>
           </div>
         </div>
       </section>

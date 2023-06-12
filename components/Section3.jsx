@@ -54,7 +54,7 @@ const Section3 = () => {
                   <p className="text-base text-white md:text-lg">
                     From large enterprises to local business security platforms,
                     from simple camera solutions for small offices to complex
-                    enterprise-class video systems for large campuses.
+                    enterprise video systems for large campuses.
                   </p>
                 </div>
                 <div className="flex gap-9 items-center sm:justify-center">

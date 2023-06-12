@@ -51,13 +51,8 @@ const AboutContent = () => {
               }}
             >
               <br className="hidden md:block" />
-              Unlimited, Uninterrupted Power supply and adequate security are{" "}
-              <span className="relative px-1">
-                <div className="absolute inset-x-0 bottom-0 h-3 transform -skew-x-12 bg-indigo-400" />
-                <span className="relative inline-block text-deep-purple-accent-400">
-                  Achievable
-                </span>
-              </span>
+              Unlimited, Uninterrupted Power supply and adequate security are
+              Achievable
             </h2>
             <p
               class="mb-4"
@@ -103,20 +98,22 @@ const AboutContent = () => {
                 />
               </motion.div>
             </AnimatePresence>
-            <motion.div
-              key="modal"
-              initial="offscreen"
-              whileInView="onscreen"
-              viewport={{ once: true, amount: 0.9 }}
-              className=""
-            >
-              <motion.img
-                variants={cardVariants2}
-                class="w-full  h-[400px] object-cover rounded-lg"
-                src="/happy-workers.png"
-                alt="Rio System Happy Workers"
-              />
-            </motion.div>
+            <AnimatePresence>
+              <motion.div
+                key="modal"
+                initial="offscreen"
+                whileInView="onscreen"
+                viewport={{ once: true, amount: 0.9 }}
+                className=""
+              >
+                <motion.img
+                  variants={cardVariants2}
+                  class="w-full  h-[400px] object-cover rounded-lg"
+                  src="/happy-workers.png"
+                  alt="Rio System Happy Workers"
+                />
+              </motion.div>
+            </AnimatePresence>
           </div>
         </div>
       </section>
