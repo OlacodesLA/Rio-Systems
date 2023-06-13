@@ -29,11 +29,14 @@ const Quote = () => {
               </div>
               <div className="flex justify-start items-center gap-4 pr-5 py-3 border-2 border-transparent rounded-lg hover:border-primary cursor-pointer ">
                 <HiOutlineMail className="text-primary text-xl" />
-                <p>info@riosystem.com</p>
+                <p>info@riosystems.com</p>
               </div>
               <div className="flex justify-start items-center gap-4 pr-5 py-3 border-2 border-transparent rounded-lg hover:border-primary cursor-pointer">
                 <IoLocation className="text-primary text-xl" />
-                <p>Ikeja, Lagos, Nigeria.</p>
+                <p>
+                  34 Razak Balogun street, off adebola street, adeniran
+                  ogunsanya road,shitta, surulere Lagos
+                </p>
               </div>
             </div>
           </div>
