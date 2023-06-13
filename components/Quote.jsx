@@ -6,7 +6,7 @@ import { FaFacebookF, FaTwitter } from "react-icons/fa";
 import { BsWhatsapp } from "react-icons/bs";
 import { AiOutlineUser } from "react-icons/ai";
 import { AiOutlinePhone } from "react-icons/ai";
-import {FaUsers} from "react-icons/fa"
+import { FaUsers } from "react-icons/fa";
 
 const Quote = () => {
   return (
@@ -24,7 +24,8 @@ const Quote = () => {
           <div className="text-base md:text-lg">
             <div className=" flex flex-col justify-between gap-2">
               <div className="flex justify-start items-center gap-4 pr-5 py-3 border-2 border-transparent rounded-lg hover:border-primary cursor-pointer">
-                <FaPhone className="text-primary" /> <p>+2348030724285</p>
+                <FaPhone className="text-primary" />{" "}
+                <p>+2347048356453, +2348124621977</p>
               </div>
               <div className="flex justify-start items-center gap-4 pr-5 py-3 border-2 border-transparent rounded-lg hover:border-primary cursor-pointer ">
                 <HiOutlineMail className="text-primary text-xl" />
@@ -56,7 +57,11 @@ const Quote = () => {
         </div>
         <div className="w-full md:w-[40%] md:mt-0 mt-10 h-full bg-white rounded-lg">
           <div className="w-full h-full">
-            <form action="https://formsubmit.co/389a7b73a731955d4d05b92a79b198b6" method="POST" className="w-full h-full py-10 text-best px-5 flex flex-col gap-5">
+            <form
+              action="https://formsubmit.co/389a7b73a731955d4d05b92a79b198b6"
+              method="POST"
+              className="w-full h-full py-10 text-best px-5 flex flex-col gap-5"
+            >
               <div className=" ">
                 <p className="pb-1">Name</p>
                 <div className="relative ">

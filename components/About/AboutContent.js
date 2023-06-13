@@ -103,7 +103,7 @@ const AboutContent = () => {
                 key="modal"
                 initial="offscreen"
                 whileInView="onscreen"
-                viewport={{ once: true, amount: 0.9 }}
+                viewport={{ once: true, amount: 0.8 }}
                 className=""
               >
                 <motion.img
